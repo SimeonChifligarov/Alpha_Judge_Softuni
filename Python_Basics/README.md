@@ -2,13 +2,10 @@
 
 > **Note**: The solutions in this repository use advanced techniques that extend beyond the curriculum content covered in SoftUni lectures.
 
----
-
-## 🚀 For Solutions Corresponding to Current Levels
-
-- **✔️ Preparation Solutions**: [Python Basics Preparation](https://github.com/SimeonChifligarov/SoftUni_as_Lecturer/tree/main/Python_Courses/Python_Basics/Preparation)
-- **✔️ Preparation for PB Exams**: [PB Exam Preparation](https://github.com/SimeonChifligarov/SoftUni_as_Lecturer/tree/main/Python_Courses/Python_Basics/Preparation_PB_Exams)
-- **✔️ Additional Exercises for PB**: [PB More Exercises](https://github.com/SimeonChifligarov/SoftUni_as_Lecturer/tree/main/Python_Courses/Python_Basics/Preparation_PB_More_Exercises)
+> **Note**: For solutions corresponding to current levels:
+> - **✔️ Preparation Solutions**: [Python Basics Preparation](https://github.com/SimeonChifligarov/SoftUni_as_Lecturer/tree/main/Python_Courses/Python_Basics/Preparation)
+> - **✔️ Preparation for PB Exams**: [PB Exam Preparation](https://github.com/SimeonChifligarov/SoftUni_as_Lecturer/tree/main/Python_Courses/Python_Basics/Preparation_PB_Exams)
+> - **✔️ Additional Exercises for PB**: [PB More Exercises](https://github.com/SimeonChifligarov/SoftUni_as_Lecturer/tree/main/Python_Courses/Python_Basics/Preparation_PB_More_Exercises)
 
 ---
 
