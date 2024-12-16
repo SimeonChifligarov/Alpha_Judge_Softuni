@@ -1,0 +1,19 @@
+def find_combinations(one_lv_count, two_lv_count, five_lv_count, target_sum):
+    combinations = []
+    for ones in range(0, one_lv_count + 1):
+        for twos in range(0, two_lv_count + 1):
+            for fives in range(0, five_lv_count + 1):
+                total = ones * 1 + twos * 2 + fives * 5
+                if total == target_sum:
+                    combinations.append(f'{ones} * 1 lv. + {twos} * 2 lv. + {fives} * 5 lv. = {target_sum} lv.')
+
+    return combinations
+
+
+one_lv_c = int(input())
+two_lv_c = int(input())
+five_lv_c = int(input())
+target_s = int(input())
+
+combs = find_combinations(one_lv_count=one_lv_c, two_lv_count=two_lv_c, five_lv_count=five_lv_c, target_sum=target_s)
+print('\n'.join(combs))
