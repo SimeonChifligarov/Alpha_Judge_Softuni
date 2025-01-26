@@ -11,8 +11,8 @@ Welcome to the **Basic Syntax, Conditional Statements, and Loops - More Exercise
 - ✔️ **01_Find_The_Largest_v3.py**
 - ✔️ **02_Find_The_Capitals.py**
 - ✔️ **02_Find_The_Capitals_v2.py**
-- ✔️ **03_Wolf.py**
-- ✔️ **03_Wolf_v2.py**
+- ✔️ **03_Wolf_In_Sheep_s_Clothing.py**
+- ✔️ **03_Wolf_In_Sheep_s_Clothing_v2.py**
 - ✔️ **04_Sum_Of_A_Beach.py**
 - ✔️ **04_Sum_Of_A_Beach_v2.py**
 
