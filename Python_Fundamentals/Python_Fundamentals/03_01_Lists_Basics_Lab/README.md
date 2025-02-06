@@ -3,14 +3,6 @@
 Welcome to the **Lists Basics - Lab** repository! 🚀
 This section is all about getting you started with one of Python's most versatile data structures: lists. You'll explore how to create, access, modify, and manipulate lists, as well as understand their fundamental operations. 🛠️
 
-Through these exercises, you’ll gain hands-on experience with:
-
-Initializing and populating lists.
-Accessing elements using indexing and slicing.
-Adding, removing, and updating list elements.
-Using common list methods like append(), remove(), and sort().
-Iterating over lists and applying operations.
-Whether you're organizing data, performing computations, or managing collections, mastering lists is a crucial step in your Python journey. Ready to level up your coding skills? Let’s dive in! 🌟
 ---
 
 ### 📓 Problems:
