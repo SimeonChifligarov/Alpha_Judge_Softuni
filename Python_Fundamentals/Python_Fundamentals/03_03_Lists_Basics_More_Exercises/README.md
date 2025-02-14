@@ -11,6 +11,7 @@ Adding, removing, and updating list elements.
 Using common list methods like append(), remove(), and sort().
 Iterating over lists and applying operations.
 Whether you're organizing data, performing computations, or managing collections, mastering lists is a crucial step in your Python journey. Ready to level up your coding skills? Let’s dive in! 🌟
+
 ---
 
 ### 📓 Problems:
