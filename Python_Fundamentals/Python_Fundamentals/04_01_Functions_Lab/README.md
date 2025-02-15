@@ -1,4 +1,3 @@
----
 # 📋 Functions Lab
 
 Welcome to the **Functions Lab** repository! 🚀
