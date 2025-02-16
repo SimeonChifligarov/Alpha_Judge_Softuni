@@ -79,8 +79,8 @@ max_key = max(my_dict, key=my_dict.get)
 min_key = max(my_dict, key=lambda x: -my_dict.get(x))
 min_key_alt = min(my_dict, key=my_dict.get)
 
-print(max_key)
-print(min_key)
-print(min_key_alt)
-print(min_key == min_key_alt)
+print(max_key)  # e
+print(min_key)  # d
+print(min_key_alt)  # d
+print(min_key == min_key_alt)  # True
 
