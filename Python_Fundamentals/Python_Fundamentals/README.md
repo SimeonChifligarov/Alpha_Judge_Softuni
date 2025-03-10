@@ -58,7 +58,6 @@ Welcome to the **Python Fundamentals** repository! 🎉 Here you'll find solutio
 
 ### 6.1. 📚 Objects and Classes - Lab ✋
 ### 6.2. 💫 Objects and Classes - Exercises ✔️
-### 6.3. 🌞 Objects and Classes - More Exercises ✋
 
 ---
 
