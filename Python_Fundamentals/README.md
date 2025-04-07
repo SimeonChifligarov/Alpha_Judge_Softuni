@@ -3,8 +3,8 @@
 > **Note**: The solutions in this repository use advanced techniques that extend beyond the curriculum content covered in SoftUni lectures.
 
 > **Note**: For solutions corresponding to current levels:
-> - **✔️ Python Fundamentals**: [Python Basics Preparation](https://github.com/SimeonChifligarov/SoftUni_Judge_Python_Problems/tree/main/Python_Fundamentals_Course)
-> - **✔️ Fundamentals - Exams**: [PB Exam Preparation](https://github.com/SimeonChifligarov/SoftUni_Judge_Python_Problems/tree/main/Python_Fundamentals_Course/00_Python_Fundamentals_Exam_Preps)
+> - **✔️ Python Fundamentals**: [Python Fundamentals Preparation](https://github.com/SimeonChifligarov/SoftUni_Judge_Python_Problems/tree/main/Python_Fundamentals_Course)
+> - **✔️ Fundamentals - Exams**: [Python Fundamentals Exam Preparation](https://github.com/SimeonChifligarov/SoftUni_Judge_Python_Problems/tree/main/Python_Fundamentals_Course/00_Python_Fundamentals_Exam_Preps)
 
 ---
 
