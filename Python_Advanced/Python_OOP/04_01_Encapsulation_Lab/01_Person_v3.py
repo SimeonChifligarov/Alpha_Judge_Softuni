@@ -1,0 +1,39 @@
+class Person:
+    """
+    This class is about a person who has a private name and a private age.
+
+    Args:
+        name (str): The name of the person.
+        age (int): The age of the person.
+    """
+
+    def __init__(self, name: str, age: int) -> None:
+        self.__name = name
+        self.__age = age
+
+    def get_name(self) -> str:
+        return self.__name
+
+    def get_age(self) -> int:
+        return self.__age
+
+    def __str__(self) -> str:
+        return f'Person(name={self.__name}, age={self.__age})'
+
+    def __repr__(self) -> str:
+        return f'Person(name={self.__name}, age={self.__age})'
+
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, Person):
+            return False
+        return self.__name == other.__name and self.__age == other.__age
+
+    def __hash__(self) -> int:
+        return hash((self.__name, self.__age))
+
+
+if __name__ == '__main__':
+    # person_instance = Person(name='George', age=32)
+    # print(person_instance.get_name())
+    # print(person_instance.get_age())
+    pass
