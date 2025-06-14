@@ -1,0 +1,24 @@
+from typing import Iterator
+
+
+def possible_permutations(elements: list) -> Iterator[list]:
+    """
+    This function gives all possible permutations of the list.
+    Args:
+        elements (list): list of elements
+    Yields:
+        list: one permutation at a time
+    """
+    if len(elements) <= 1:
+        yield elements
+    else:
+        for index in range(len(elements)):
+            first = elements[index]
+            rest = elements[:index] + elements[index + 1:]
+            for perm in possible_permutations(rest):
+                yield [first] + perm
+
+# if __name__ == '__main__':
+#     output = [print(item) for item in possible_permutations(elements=[1, 2, 3])]
+#     output = [print(item) for item in possible_permutations(elements=[1])]
+#     pass
