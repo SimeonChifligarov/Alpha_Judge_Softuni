@@ -1,0 +1,38 @@
+CREATE TABLE IF NOT EXISTS cities (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    city_name VARCHAR(50) -- NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS item_types (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    item_type_name VARCHAR(50) -- NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS customers (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    customer_name VARCHAR(100), -- NOT NULL,
+    birthday DATE CHECK (birthday <= CURRENT_DATE),
+    city_id INT NOT NULL,
+    FOREIGN KEY (city_id) REFERENCES cities(id) ON DELETE RESTRICT
+);
+
+CREATE TABLE IF NOT EXISTS orders (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    customer_id INT NOT NULL,
+    FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS items (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    item_name VARCHAR(100) NOT NULL,
+    item_type_id INT NOT NULL,
+    FOREIGN KEY (item_type_id) REFERENCES item_types(id) ON DELETE RESTRICT
+);
+
+CREATE TABLE IF NOT EXISTS order_items (
+    order_id INT NOT NULL,
+    item_id INT NOT NULL,
+    PRIMARY KEY (order_id, item_id),
+    FOREIGN KEY (order_id) REFERENCES orders(id) ON DELETE CASCADE,
+    FOREIGN KEY (item_id) REFERENCES items(id) ON DELETE RESTRICT
+);
