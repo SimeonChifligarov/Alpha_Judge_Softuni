@@ -1,7 +1,5 @@
-import sys
-
-n = int(sys.stdin.readline().strip())
-area = [list(sys.stdin.readline().strip()) for _ in range(n)]
+n = int(input().strip())
+area = [list(input().strip()) for _ in range(n)]
 
 r = c = 0
 for i in range(n):
